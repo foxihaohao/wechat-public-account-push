@@ -62,13 +62,13 @@ export const config = {
       // 想要发送的人的名字
       name: "吴晗",
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "o60yp6P_xgJNHNRkB3I52R4l6wXU",
+      id: "o60yp6DRorRHTLCdu_bTaErooz0Y",
       // 你想对他发送的模板消息的模板ID
       useTemplateId: "INRaliF-bY52F_gF9ZLYvkkMMLFb3fVTCwwPLC1PT9o",
       // 所在省份
-      province: "河南",
+      province: "河南省",
       // 所在城市
-      city: "许昌",
+      city: "商丘市民权",
       // 新历生日, 仅用作获取星座运势, 格式必须
       horoscopeDate: '02-15',
       // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
@@ -93,19 +93,19 @@ export const config = {
         // 退伍日
         {"keyword": "ex_day", date: "2022-09-10"},
       ]
+    },
+    {
+      name: "我的微信",
+      id: "o60yp6P_xgJNHNRkB3I52R4l6wXU",
+      useTemplateId: "INRaliF-bY52F_gF9ZLYvkkMMLFb3fVTCwwPLC1PT9o",
+      province: "河南",
+      city: "许昌",
+      horoscopeDate: '02-15',
+      horoscopeDateType: '今日',
+      openUrl: "https://wangxinleo.cn",
+      festivals: [],
+      customizedDateList: []
     }
-//     {
-//       name: "我的微信",
-//       id: "o60yp6P_xgJNHNRkB3I52R4l6wXU",
-//       useTemplateId: "INRaliF-bY52F_gF9ZLYvkkMMLFb3fVTCwwPLC1PT9o",
-//       province: "河南",
-//       city: "许昌",
-//       horoscopeDate: '02-15',
-//       horoscopeDateType: '今日',
-//       openUrl: "https://wangxinleo.cn",
-//       festivals: [],
-//       customizedDateList: []
-//     }
     // 你可以不断按格式往下增加
     // ...
   ],
