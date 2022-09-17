@@ -16,7 +16,6 @@ headers = {'Content-type':'application/x-www-form-urlencoded'}
 conn.request('POST','/saylove/index',params,headers)
 res = conn.getresponse()
 data = res.read()
-print(data.decode('utf-8'))
 // 天行数据接口结束
 
 const mainForProd = async () => {
