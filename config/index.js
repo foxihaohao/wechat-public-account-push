@@ -97,7 +97,7 @@ export const config = {
 //     {
 //       name: "我的微信",
 //       id: "o60yp6P_xgJNHNRkB3I52R4l6wXU",
-//       useTemplateId: "pDiHHOj6qJxnbG4LkVBuWzHzDUpGiM97NipEipZOy3o",
+//       useTemplateId: "GqVyYI_LRLvWXwApxtJYTALuHLck-aMCHxhJXftk8P8",
 //       province: "河南",
 //       city: "许昌",
 //       horoscopeDate: '02-15',
