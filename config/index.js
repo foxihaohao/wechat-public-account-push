@@ -62,9 +62,9 @@ export const config = {
       // 想要发送的人的名字
       name: "吴晗",
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "o60yp6P_xgJNHNRkB3I52R4l6wXU",
+      id: "o60yp6DRorRHTLCdu_bTaErooz0Y",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "c-f4y6Ozd25HeFFo--SVbRI_bL4GuZbx1OeuDBr41b8",
+      useTemplateId: "yIN0jOIqe7yU75uY6t43C8Gu2OQbwFD1H2E2qKUS8sc",
       // 所在省份
       province: "河南省",
       // 所在城市
@@ -97,7 +97,7 @@ export const config = {
 //     {
 //       name: "我的微信",
 //       id: "o60yp6P_xgJNHNRkB3I52R4l6wXU",
-//       useTemplateId: "INRaliF-bY52F_gF9ZLYvkkMMLFb3fVTCwwPLC1PT9o",
+//       useTemplateId: "yIN0jOIqe7yU75uY6t43C8Gu2OQbwFD1H2E2qKUS8sc",
 //       province: "河南",
 //       city: "许昌",
 //       horoscopeDate: '02-15',
