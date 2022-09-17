@@ -94,20 +94,20 @@ export const config = {
 //         {"keyword": "ex_day", date: "2022-09-10"},
 //       ]
 //     },
-    {
-      name: "我的微信",
-      id: "o60yp6P_xgJNHNRkB3I52R4l6wXU",
-      useTemplateId: "pDiHHOj6qJxnbG4LkVBuWzHzDUpGiM97NipEipZOy3o",
-      province: "河南",
-      city: "许昌",
-      horoscopeDate: '02-15',
-      horoscopeDateType: '今日',
-      openUrl: "https://foxihaohao.com/"
-    },
+//     {
+//       name: "我的微信",
+//       id: "o60yp6P_xgJNHNRkB3I52R4l6wXU",
+//       useTemplateId: "pDiHHOj6qJxnbG4LkVBuWzHzDUpGiM97NipEipZOy3o",
+//       province: "河南",
+//       city: "许昌",
+//       horoscopeDate: '02-15',
+//       horoscopeDateType: '今日',
+//       openUrl: "https://foxihaohao.com/"
+//     }
     {
       name: "My 嘉欣~",
-      id: "o60yp6AhQzwjSnwHwhB07CshpcTg",
-      useTemplateId: "pDiHHOj6qJxnbG4LkVBuWzHzDUpGiM97NipEipZOy3o",
+      id: "o60yp6P_xgJNHNRkB3I52R4l6wXU",
+      useTemplateId: "Nbr6VeIfJjppaFj7TFoSEtlRCak9enJUhnBsJrarFO8",
       province: "河南",
       city: "开封",
       horoscopeDate: '0',
@@ -125,19 +125,19 @@ export const config = {
    */
 
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
-  CALLBACK_TEMPLATE_ID: "Gu07XQyTLgKa2cwFOn5EzLFy8hcrJMm7rBJzFPMFX5g",
+//   CALLBACK_TEMPLATE_ID: "Gu07XQyTLgKa2cwFOn5EzLFy8hcrJMm7rBJzFPMFX5g",
 
   // 接收成功回调消息的微信号，（一般来说只填自己的微信号, name填不填无所谓）
-  CALLBACK_USERS: [
-    {
+//   CALLBACK_USERS: [
+//     {
       // 一般都填自己
       name: "推送成功后给我提醒！",
       // 自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "o60yp6P_xgJNHNRkB3I52R4l6wXU",
-    },
+//       id: "o60yp6P_xgJNHNRkB3I52R4l6wXU",
+//     },
     // 你可以不断按格式往下增加
     // ...
-  ],
+//   ],
 
   /**
    * 信息配置
