@@ -115,6 +115,15 @@ export const config = {
       openUrl: "https://foxihaohao.com/",
       festivals: [],
       customizedDateList: []
+      {
+  "code": 200,
+  "msg": "success",
+  "newslist": [
+    {
+      "content": "我身体很好，可以扛米袋子，扛煤气罐，可就是扛不住想你。"
+    }
+  ]
+}
     }
     // 你可以不断按格式往下增加
     // ...
