@@ -97,43 +97,25 @@ export const config = {
     {
       name: "我的微信",
       id: "o60yp6P_xgJNHNRkB3I52R4l6wXU",
-      useTemplateId: "dkOhmBUzfMwtqLNubEe4RVFR0YTLx2tFXfT-PlOjhdo",
+      useTemplateId: "pDiHHOj6qJxnbG4LkVBuWzHzDUpGiM97NipEipZOy3o",
       province: "河南",
       city: "许昌",
       horoscopeDate: '02-15',
       horoscopeDateType: '今日',
-      openUrl: "",
-      // 专属节日提醒，如果你在这里填写了节日提醒，就不会执行FESTIVALS的提醒了, 和FESTIVALS的配置方法相同，可以往下查看，我这里就不重复写了
-      festivals: [
-        // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
-        {"type": "*生日", "name": "老婆", "year": "2000", "date": "02-15"},
-        {"type": "节日", "name": "结婚纪念日", "year": "2020", "date": "09-03"},
-        // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
-        {"type": "生日", "name": "李四", "year": "1996", "date": "09-31"},
-        {"type": "节日", "name": "被搭讪纪念日", "year": "2021", "date": "09-01"},
-      ],
-      // 专属纪念日/倒数日，如果你在这里填写了纪念日/倒数日，就不会计算CUSTOMIZED_DATE_LIST的日子了, 和CUSTOMIZED_DATE_LIST的配置方法相同，可以往下查看，我这里就不重复写了
-      customizedDateList: [
-        // 在一起的日子
-        {"keyword": "love_day", date: "2022-09-17"},
-        // 结婚纪念日
-        {"keyword": "marry_day", date: "2022-09-09"},
-        // 退伍日
-        {"keyword": "ex_day", date: "2022-09-10"},
-      ]
+      openUrl: "https://foxihaohao.com/"
+    },
+    {
+      name: "My 嘉欣~",
+      id: "o60yp6AhQzwjSnwHwhB07CshpcTg",
+      useTemplateId: "pDiHHOj6qJxnbG4LkVBuWzHzDUpGiM97NipEipZOy3o",
+      province: "河南",
+      city: "开封",
+      horoscopeDate: '0',
+      horoscopeDateType: '今日',
+      openUrl: "https://foxihaohao.com/",
+      festivals: [],
+      customizedDateList: []
     }
-//     {
-//       name: "潘嘉欣",
-//       id: "o60yp6AhQzwjSnwHwhB07CshpcTg",
-//       useTemplateId: "yIN0jOIqe7yU75uY6t43C8Gu2OQbwFD1H2E2qKUS8sc",
-//       province: "河南",
-//       city: "开封",
-//       horoscopeDate: '0',
-//       horoscopeDateType: '今日',
-//       openUrl: "https://wangxinleo.cn",
-//       festivals: [],
-//       customizedDateList: []
-//     }
     // 你可以不断按格式往下增加
     // ...
   ],
