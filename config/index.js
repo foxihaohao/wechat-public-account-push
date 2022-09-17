@@ -32,7 +32,7 @@ export const config = {
     // 每日一言
     oneTalk: false,
     // 土味情话(彩虹屁)
-    earthyLoveWords: false,
+    earthyLoveWords: true,
     // 朋友圈文案
     momentCopyrighting: false,
     // 毒鸡汤
@@ -60,9 +60,9 @@ export const config = {
   USERS: [
     {
       // 想要发送的人的名字
-      name: "测试成功DEMO",
+      name: "吴晗",
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "o60yp6P_xgJNHNRkB3I52R4l6wXU",
+      id: "o60yp6DRorRHTLCdu_bTaErooz0Y",
       // 你想对他发送的模板消息的模板ID
       useTemplateId: "INRaliF-bY52F_gF9ZLYvkkMMLFb3fVTCwwPLC1PT9o",
       // 所在省份
@@ -95,7 +95,7 @@ export const config = {
       ]
     }
 //     {
-//       name: "测试成功！",
+//       name: "我的微信",
 //       id: "o60yp6P_xgJNHNRkB3I52R4l6wXU",
 //       useTemplateId: "INRaliF-bY52F_gF9ZLYvkkMMLFb3fVTCwwPLC1PT9o",
 //       province: "河南",
@@ -115,13 +115,13 @@ export const config = {
    */
 
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
-  CALLBACK_TEMPLATE_ID: "INRaliF-bY52F_gF9ZLYvkkMMLFb3fVTCwwPLC1PT9o",
+  CALLBACK_TEMPLATE_ID: "Gu07XQyTLgKa2cwFOn5EzLFy8hcrJMm7rBJzFPMFX5g",
 
   // 接收成功回调消息的微信号，（一般来说只填自己的微信号, name填不填无所谓）
   CALLBACK_USERS: [
     {
       // 一般都填自己
-      name: "测试123456",
+      name: "推送成功后给我提醒！",
       // 自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: "o60yp6P_xgJNHNRkB3I52R4l6wXU",
     },
@@ -136,9 +136,9 @@ export const config = {
   /** 天气相关 */
 
   // 默认所在省份, USERS 中没填的话, 会默认拿这里的省份
-  PROVINCE: "广东",
+  PROVINCE: "河南",
   // 默认所在城市, USERS 中没填的话, 会默认拿这里的城市
-  CITY: "惠州",
+  CITY: "许昌",
 
   /** 重要节日相关 */
 
