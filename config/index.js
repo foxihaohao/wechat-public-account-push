@@ -41,7 +41,7 @@ export const config = {
     poetry: false,
 
     /** 星座运势 */
-    horoscope: false,
+    horoscope: true,
 
     /** 生日消息和节日消息 */
     birthdayMessage: true,
@@ -97,7 +97,7 @@ export const config = {
     {
       name: "我的微信",
       id: "o60yp6P_xgJNHNRkB3I52R4l6wXU",
-      useTemplateId: "W4XQYSQnGAUGkXH0gByCSBWdH8ZIfuTz1Fr7dEoUTFs",
+      useTemplateId: "dkOhmBUzfMwtqLNubEe4RVFR0YTLx2tFXfT-PlOjhdo",
       province: "河南",
       city: "许昌",
       horoscopeDate: '02-15',
@@ -115,7 +115,7 @@ export const config = {
       // 专属纪念日/倒数日，如果你在这里填写了纪念日/倒数日，就不会计算CUSTOMIZED_DATE_LIST的日子了, 和CUSTOMIZED_DATE_LIST的配置方法相同，可以往下查看，我这里就不重复写了
       customizedDateList: [
         // 在一起的日子
-        {"keyword": "love_day", date: "2022-09-08"},
+        {"keyword": "love_day", date: "2022-09-17"},
         // 结婚纪念日
         {"keyword": "marry_day", date: "2022-09-09"},
         // 退伍日
