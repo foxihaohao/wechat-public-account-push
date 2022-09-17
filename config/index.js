@@ -58,64 +58,73 @@ export const config = {
    * 接收公众号消息的微信号，如果有多个，需要在[]里用英文逗号间隔
    */
   USERS: [
-//     {
-//       // 想要发送的人的名字
-//       name: "吴晗",
-//       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-//       id: "o60yp6DRorRHTLCdu_bTaErooz0Y",
-//       // 你想对他发送的模板消息的模板ID
-//       useTemplateId: "yIN0jOIqe7yU75uY6t43C8Gu2OQbwFD1H2E2qKUS8sc",
-//       // 所在省份
-//       province: "河南省",
-//       // 所在城市
-//       city: "商丘市民权",
-//       // 新历生日, 仅用作获取星座运势, 格式必须
-//       horoscopeDate: '02-15',
-//       // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
-//       horoscopeDateType: '今日',
-//       // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
-//       openUrl: "",
-//       // 专属节日提醒，如果你在这里填写了节日提醒，就不会执行FESTIVALS的提醒了, 和FESTIVALS的配置方法相同，可以往下查看，我这里就不重复写了
-//       festivals: [
-//         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
-//         {"type": "*生日", "name": "老婆", "year": "2000", "date": "02-15"},
-//         {"type": "节日", "name": "结婚纪念日", "year": "2020", "date": "09-03"},
-//         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
-//         {"type": "生日", "name": "李四", "year": "1996", "date": "09-31"},
-//         {"type": "节日", "name": "被搭讪纪念日", "year": "2021", "date": "09-01"},
-//       ],
-//       // 专属纪念日/倒数日，如果你在这里填写了纪念日/倒数日，就不会计算CUSTOMIZED_DATE_LIST的日子了, 和CUSTOMIZED_DATE_LIST的配置方法相同，可以往下查看，我这里就不重复写了
-//       customizedDateList: [
-//         // 在一起的日子
-//         {"keyword": "love_day", date: "2022-09-08"},
-//         // 结婚纪念日
-//         {"keyword": "marry_day", date: "2022-09-09"},
-//         // 退伍日
-//         {"keyword": "ex_day", date: "2022-09-10"},
-//       ]
-//     },
-//     {
-//       name: "我的微信",
-//       id: "o60yp6P_xgJNHNRkB3I52R4l6wXU",
-//       useTemplateId: "GqVyYI_LRLvWXwApxtJYTALuHLck-aMCHxhJXftk8P8",
-//       province: "河南",
-//       city: "许昌",
-//       horoscopeDate: '02-15',
-//       horoscopeDateType: '今日',
-//       openUrl: "https://foxihaohao.com/"
-//     }
     {
-      name: "My 嘉欣~",
+      // 想要发送的人的名字
+      name: "吴晗",
+      // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
+      id: "o60yp6DRorRHTLCdu_bTaErooz0Y",
+      // 你想对他发送的模板消息的模板ID
+      useTemplateId: " 	OLo4A4fQ0qR9CVpeu2IeRHpYs9viKgFi3nw2fYDRoLo",
+      // 所在省份
+      province: "江苏省",
+      // 所在城市
+      city: "南通市",
+      // 新历生日, 仅用作获取星座运势, 格式必须
+      horoscopeDate: '02-15',
+      // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
+      horoscopeDateType: '今日',
+      // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
+      openUrl: "https://foxihaohao.com/",
+      // 专属节日提醒，如果你在这里填写了节日提醒，就不会执行FESTIVALS的提醒了, 和FESTIVALS的配置方法相同，可以往下查看，我这里就不重复写了
+      festivals: [
+        // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
+        {"type": "*生日", "name": "老婆", "year": "2000", "date": "02-15"},
+        {"type": "节日", "name": "结婚纪念日", "year": "2020", "date": "09-03"},
+        // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
+        {"type": "生日", "name": "李四", "year": "1996", "date": "09-31"},
+        {"type": "节日", "name": "被搭讪纪念日", "year": "2021", "date": "09-01"},
+      ],
+      // 专属纪念日/倒数日，如果你在这里填写了纪念日/倒数日，就不会计算CUSTOMIZED_DATE_LIST的日子了, 和CUSTOMIZED_DATE_LIST的配置方法相同，可以往下查看，我这里就不重复写了
+      customizedDateList: [
+        // 在一起的日子
+        {"keyword": "love_day", date: "2022-09-08"},
+        // 结婚纪念日
+        {"keyword": "marry_day", date: "2022-09-09"},
+        // 退伍日
+        {"keyword": "ex_day", date: "2022-09-10"},
+      ]
+    },
+    {
+      name: "我的微信",
       id: "o60yp6P_xgJNHNRkB3I52R4l6wXU",
-      useTemplateId: "Nbr6VeIfJjppaFj7TFoSEtlRCak9enJUhnBsJrarFO8",
+      useTemplateId: "OLo4A4fQ0qR9CVpeu2IeRHpYs9viKgFi3nw2fYDRoLo",
       province: "河南",
-      city: "开封",
-      horoscopeDate: '0',
+      city: "许昌",
+      horoscopeDate: '02-15',
       horoscopeDateType: '今日',
       openUrl: "https://foxihaohao.com/",
-      festivals: [],
-      customizedDateList: []
-    }
+      customizedDateList: [
+        // 在一起的日子
+        {"keyword": "love_day", date: "2022-09-08"},
+        // 结婚纪念日
+        {"keyword": "marry_day", date: "2022-09-09"},
+        // 退伍日
+        {"keyword": "ex_day", date: "2022-09-10"},
+      ]
+    
+    },
+//     {
+//       name: "My 嘉欣~",
+//       id: "o60yp6P_xgJNHNRkB3I52R4l6wXU",
+//       useTemplateId: "Nbr6VeIfJjppaFj7TFoSEtlRCak9enJUhnBsJrarFO8",
+//       province: "河南",
+//       city: "开封",
+//       horoscopeDate: '0',
+//       horoscopeDateType: '今日',
+//       openUrl: "https://foxihaohao.com/",
+//       festivals: [],
+//       customizedDateList: []
+//     }
     // 你可以不断按格式往下增加
     // ...
   ],
@@ -195,7 +204,7 @@ export const config = {
     * */
   CUSTOMIZED_DATE_LIST: [
     // 在一起的日子
-    {"keyword": "love_day", date: "2022-09-08"},
+    {"keyword": "love_day", date: "2022-01-29"},
     // 结婚纪念日
     {"keyword": "marry_day", date: "2022-09-09"},
     // 退伍日
