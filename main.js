@@ -8,14 +8,6 @@ import { config } from './config/index.js'
 import { mainForTest } from './main-for-test.js'
 
 // 天行数据接口
-# -*- coding: utf-8 -*-
-import http.client, urllib
-conn = http.client.HTTPSConnection('api.tianapi.com')
-params = urllib.parse.urlencode({'key':'53791645e1ac656e85482f2bf7aee60a'})
-headers = {'Content-type':'application/x-www-form-urlencoded'}
-conn.request('POST','/saylove/index',params,headers)
-res = conn.getresponse()
-data = res.read()
 // 天行数据接口结束
 
 const mainForProd = async () => {
