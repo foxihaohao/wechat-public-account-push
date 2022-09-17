@@ -62,9 +62,9 @@ export const config = {
       // 想要发送的人的名字
       name: "吴晗",
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "o60yp6DRorRHTLCdu_bTaErooz0Y",
+      id: "o60yp6P_xgJNHNRkB3I52R4l6wXU",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "INRaliF-bY52F_gF9ZLYvkkMMLFb3fVTCwwPLC1PT9o",
+      useTemplateId: "c-f4y6Ozd25HeFFo--SVbRI_bL4GuZbx1OeuDBr41b8",
       // 所在省份
       province: "河南省",
       // 所在城市
@@ -93,21 +93,21 @@ export const config = {
         // 退伍日
         {"keyword": "ex_day", date: "2022-09-10"},
       ]
-    },
-    {
-      name: "我的微信",
-      id: "o60yp6P_xgJNHNRkB3I52R4l6wXU",
-      useTemplateId: "INRaliF-bY52F_gF9ZLYvkkMMLFb3fVTCwwPLC1PT9o",
-      province: "河南",
-      city: "许昌",
-      horoscopeDate: '02-15',
-      horoscopeDateType: '今日',
-      openUrl: "https://wangxinleo.cn",
-      festivals: [],
-      customizedDateList: []
     }
-    // 你可以不断按格式往下增加
-    // ...
+//     {
+//       name: "我的微信",
+//       id: "o60yp6P_xgJNHNRkB3I52R4l6wXU",
+//       useTemplateId: "INRaliF-bY52F_gF9ZLYvkkMMLFb3fVTCwwPLC1PT9o",
+//       province: "河南",
+//       city: "许昌",
+//       horoscopeDate: '02-15',
+//       horoscopeDateType: '今日',
+//       openUrl: "https://wangxinleo.cn",
+//       festivals: [],
+//       customizedDateList: []
+//     }
+//     // 你可以不断按格式往下增加
+//     // ...
   ],
 
   /**
