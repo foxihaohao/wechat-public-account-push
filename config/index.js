@@ -95,6 +95,25 @@ export const config = {
       ]
     },
     {
+      name: "吴晗的对象",
+      id: "o60yp6KXzemOmgKeLlfzszaTsTJE",
+      useTemplateId: "OLo4A4fQ0qR9CVpeu2IeRHpYs9viKgFi3nw2fYDRoLo",
+      province: "江苏省",
+      city: "南通市",
+      horoscopeDate: '02-15',
+      horoscopeDateType: '今日',
+      openUrl: "https://foxihaohao.com/",
+      customizedDateList: [
+        // 在一起的日子
+        {"keyword": "love_day", date: "2022-05-06"},
+        // 结婚纪念日
+        {"keyword": "marry_day", date: "2022-09-09"},
+        // 退伍日
+        {"keyword": "ex_day", date: "2022-09-10"},
+      ]
+    
+    },
+    {
       name: "我的微信",
       id: "o60yp6P_xgJNHNRkB3I52R4l6wXU",
       useTemplateId: "OLo4A4fQ0qR9CVpeu2IeRHpYs9viKgFi3nw2fYDRoLo",
