@@ -62,9 +62,9 @@ export const config = {
 //       // 想要发送的人的名字
 //       name: "嘉欣",
 //       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-//       id: "o60yp6AhQzwjSnwHwhB07CshpcT1",
+//       id: "o60yp6AhQzwjSnwHwhB07CshpcTg",
 //       // 你想对他发送的模板消息的模板ID
-//       useTemplateId: "MSqTHqnJKkdPYOTp7qSbvhFS4oW5QjH-fKyEXfOazH1",
+//       useTemplateId: "MSqTHqnJKkdPYOTp7qSbvhFS4oW5QjH-fKyEXfOazHc",
 //       // 所在省份
 //       province: "河南省",
 //       // 所在城市
@@ -98,7 +98,7 @@ export const config = {
       name: "我的微信（测试）",
       id: "o60yp6P_xgJNHNRkB3I52R4l6wXU",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "MSqTHqnJKkdPYOTp7qSbvhFS4oW5QjH-fKyEXfOazH1",
+      useTemplateId: "MSqTHqnJKkdPYOTp7qSbvhFS4oW5QjH-fKyEXfOazHc",
       // 所在省份
       province: "河南省",
       // 所在城市
