@@ -91,7 +91,7 @@ export const config = {
         // 生日纪念日
         {"keyword": "marry_day", date: "2023-05-06"},
         // 下次见面
-        {"keyword": "ex_day", date: "2022-09-25"},
+        {"keyword": "ex_day", date: "2022-09-19"},
       ]
     },
     {
@@ -116,7 +116,7 @@ export const config = {
         // 生日纪念日
         {"keyword": "marry_day", date: "2023-05-06"},
         // 下次见面
-        {"keyword": "ex_day", date: "2022-09-25"},
+        {"keyword": "ex_day", date: "2022-09-19"},
       ]
     }
     // 你可以不断按格式往下增加
@@ -219,6 +219,7 @@ export const config = {
     // 这样配置的话，就会每次随机选一句话发送
     {"keyword": "lover_prattle", contents: [
       "因为太喜欢你，所以看谁都像是情敌。",
+"很久没有告诉你，但是我现在忍不住了，我真的喜欢你❤️",
       "申请成为你爱里的永久居民。",
       "你很傻，你很笨，可我还是很羡慕你，因为你有我",
       "遇见你，就好像捡到了100斤的运气",
