@@ -64,7 +64,7 @@ export const config = {
 //       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
 //       id: "o60yp6AhQzwjSnwHwhB07CshpcTg",
 //       // 你想对他发送的模板消息的模板ID
-//       useTemplateId: "MSqTHqnJKkdPYOTp7qSbvhFS4oW5QjH-fKyEXfOazHc",
+//       useTemplateId: "0oEYJAd7ZrgyTBA_5Pc03sTxPt2UI6RaIwndmZGAf24",
 //       // 所在省份
 //       province: "河南省",
 //       // 所在城市
@@ -87,18 +87,19 @@ export const config = {
 //       // 专属纪念日/倒数日，如果你在这里填写了纪念日/倒数日，就不会计算CUSTOMIZED_DATE_LIST的日子了, 和CUSTOMIZED_DATE_LIST的配置方法相同，可以往下查看，我这里就不重复写了
 //       customizedDateList: [
 //         // 在一起的日子
-//         {"keyword": "love_day", date: "2020-05-06"},
-//         // 结婚纪念日
-//         {"keyword": "marry_day", date: "2022-09-09"},
-//         // 退伍日
-//         {"keyword": "ex_day", date: "2022-09-10"},
+//         {"keyword": "love_day", date: "2019-08-06"},
+//         // 生日纪念日
+//         {"keyword": "marry_day", date: "2002-05-06"},
+//         // 下次见面
+//         {"keyword": "ex_day", date: "2022-09-20"},
 //       ]
 //     },
     {
-      name: "我的微信（测试）",
+//       我的微信（测试后记得把本内容复制到要推送的人）
+      name: "亲爱的嘉欣~",
       id: "o60yp6P_xgJNHNRkB3I52R4l6wXU",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "MSqTHqnJKkdPYOTp7qSbvhFS4oW5QjH-fKyEXfOazHc",
+      useTemplateId: "0oEYJAd7ZrgyTBA_5Pc03sTxPt2UI6RaIwndmZGAf24",
       // 所在省份
       province: "河南省",
       // 所在城市
@@ -111,11 +112,11 @@ export const config = {
       openUrl: "https://foxihaohao.com/PJX",
       customizedDateList: [
         // 在一起的日子
-        {"keyword": "love_day", date: "2022-05-06"},
-        // TA生日
-        {"keyword": "marry_day", date: "2022-01-01"},
-        // 退伍日
-        {"keyword": "ex_day", date: "2022-09-10"},
+        {"keyword": "love_day", date: "2019-08-06"},
+        // 生日纪念日
+        {"keyword": "marry_day", date: "2002-05-06"},
+        // 下次见面
+        {"keyword": "ex_day", date: "2022-09-20"},
       ]
     }
     // 你可以不断按格式往下增加
