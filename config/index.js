@@ -6,12 +6,12 @@ export const config = {
   // 公众号APP_ID
   // 建议不要填这里，请使用文档中github secret的方法进行保密配置，保护您的隐私安全。
   // 如果你非要填这里也行。脚本也能运行
-  APP_ID: "wx29ffee6aebc1b025",
+  APP_ID: "wxa774cff408d3e57c",
 
   // 公众号APP_SECRET
   // 建议不要填这里，请使用文档中github secret的方法进行保密配置，保护您的隐私安全。
   // 如果你非要填这里也行。脚本也能运行
-  APP_SECRET: "935e8b292a5ab351f2c79d051c0357c7",
+  APP_SECRET: "9695bd54ea19c5b8d082fa89a4709a8a",
 
   // 是否给文字设置多彩颜色, 和emoji不兼容
   // 如果您使用了微信测试号的模板中含有emoji表情，请填 false
@@ -62,7 +62,7 @@ export const config = {
       // 想要发送的人的名字
       name: "嘉欣",
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "o60yp6AhQzwjSnwHwhB07CshpcTg",
+      id: "",
       // 你想对他发送的模板消息的模板ID
       useTemplateId: "sAVLe78QY4GD9UrJw7hcP3y1jiJE0KbgupOHohw-fJo",
       // 所在省份
@@ -100,9 +100,14 @@ export const config = {
       name: "亲爱的嘉欣~",
       id: "o60yp6P_xgJNHNRkB3I52R4l6wXU",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "sAVLe78QY4GD9UrJw7hcP3y1jiJE0KbgupOHohw-fJo",
+      useTemplateId: "FRuUibi9OObfUwCQvVLbmgJh5XKmMm30-R9-QNKLDT4",
       // 所在省份
       province: "河南省",
+thing1:"公司网站",
+name2:"许昌市志强网络科技有限公司",
+date3:"2022年9月28日",
+thing4:"申请入驻服务商",
+thing5:"申请加盟",
       // 所在城市
       city: "开封市",
       // 新历生日, 仅用作获取星座运势, 格式必须
