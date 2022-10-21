@@ -6,12 +6,12 @@ export const config = {
   // 公众号APP_ID
   // 建议不要填这里，请使用文档中github secret的方法进行保密配置，保护您的隐私安全。
   // 如果你非要填这里也行。脚本也能运行
-  APP_ID: "wxa774cff408d3e57c",
+  APP_ID: "wx1d1f172b8f82e25c",
 
   // 公众号APP_SECRET
   // 建议不要填这里，请使用文档中github secret的方法进行保密配置，保护您的隐私安全。
   // 如果你非要填这里也行。脚本也能运行
-  APP_SECRET: "9695bd54ea19c5b8d082fa89a4709a8a",
+  APP_SECRET: "a1d924a9c4da97f17a82e9ae6d7814c1",
 
   // 是否给文字设置多彩颜色, 和emoji不兼容
   // 如果您使用了微信测试号的模板中含有emoji表情，请填 false
@@ -61,16 +61,28 @@ export const config = {
     
     {
 //       我的微信（测试后记得把本内容复制到要推送的人）
-      name: "亲爱的嘉欣~",
-//       id: "o60yp6P_xgJNHNRkB3I52R4l6wXU",
+      name: "我的微信~",
+//       id: "oWZ-l5beQM3t3vDNLXQzadnAH3Q0",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "FRuUibi9OObfUwCQvVLbmgJh5XKmMm30-R9-QNKLDT4",
+      useTemplateId: "RZwCLz9tmtuqDVin5IvDJfdGl-N7I5CcImOYchQfLw0",
    
-thing1:"公司网站",
-name2:"许昌市志强网络科技有限公司",
-date3:"2022年9月28日",
-thing4:"申请入驻服务商",
-thing5:"申请加盟",
+
+      "thing1": {
+            "value": "留言内容"
+        },
+        "thing2": {
+            "value": "回复内容"
+        },
+        "thing3": {
+            "value": "审核状态"
+        } ,
+        "thing5": {
+            "value": "文章标题"
+        },
+        "date6": {
+            "value": "留言时间"
+        }
+//       
     }
     // 你可以不断按格式往下增加
     // ...
@@ -81,7 +93,8 @@ thing5:"申请加盟",
    */
 
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
-  CALLBACK_TEMPLATE_ID: "Gu07XQyTLgKa2cwFOn5EzLFy8hcrJMm7rBJzFPMFX5g",
+  CALLBACK_TEMPLATE_ID: "RZwCLz9tmtuqDVin5IvDJfdGl",
+  page":"pages/Tips/Tips",
 
   // 接收成功回调消息的微信号，（一般来说只填自己的微信号, name填不填无所谓）
   CALLBACK_USERS: [
@@ -89,7 +102,7 @@ thing5:"申请加盟",
       // 一般都填自己
       name: "推送成功后给我提醒！",
       // 自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "o60yp6P_xgJNHNRkB3I52R4l6wXU",
+      id: "oWZ-l5beQM3t3vDNLXQzadnAH3Q0",
     },
     // 你可以不断按格式往下增加
     // ...
